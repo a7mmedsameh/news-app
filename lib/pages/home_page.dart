@@ -43,11 +43,10 @@ class HomePage extends StatelessWidget {
                 child: CardListVeiw(),
               ),
             ),
-            NewsListVeiwBuilder(category: 'general',),
+            NewsListVeiwBuilder(category: 'general'),
           ],
         ),
       ),
     );
   }
 }
-

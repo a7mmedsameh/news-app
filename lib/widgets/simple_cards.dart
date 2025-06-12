@@ -12,7 +12,7 @@ class SimpleCardOne extends StatelessWidget {
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) {
-              return CategoryPage(category: categoryOne.name,);
+              return CategoryPage(category: categoryOne.name);
             },
           ),
         );
